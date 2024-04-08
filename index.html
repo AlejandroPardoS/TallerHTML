@@ -3,6 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <title>Los Felinos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link 
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -29,27 +30,31 @@
         }
 
         .col-img {
-            margin-right: 4%; 
+            margin-right: 4%;
         }
 
-        .col-img:last-child {
+        @media (max-width: 767.98px) {
+        .col-img {
             margin-right: 0;
         }
+        }
+    
     </style>
+
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Los Felinos: Explorando la Elegancia Salvaje</h1>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img 
                     src="https://cdn.pixabay.com/photo/2016/04/07/21/16/big-cats-1314748_1280.png"
                     class="img-fluid"
                 />
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-12">
                 <p>
                     Los felinos, una fascinante familia de mamíferos carnívoros, despiertan admiración y curiosidad 
                     en personas de todas las edades y culturas. Desde el majestuoso león hasta el ágil guepardo, 
@@ -64,10 +69,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Especies más comunes</h1>
             </div>
-            <div class="col-2 col-img">
+            <div class="col-md-2 col-6 col-img">
                 <div class="image-container">
                     <img 
                         src="https://static.vecteezy.com/system/resources/previews/024/722/293/non_2x/lion-with-ai-generated-free-png.png"
@@ -78,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 col-img">
+            <div class="col-md-2 col-6 col-img">
                 <div class="image-container">
                     <img 
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZjLs3IFhRLtebvRBTncQ-7L4RFHSTPosB9kJ4coBMg&s"
@@ -89,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 col-img">
+            <div class="col-md-2 col-6 col-img">
                 <div class="image-container">
                     <img 
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76RkEdHIwHlM3Y0y6my5PAS5UDkjX65LNEdtqeX8xHA&s"
@@ -100,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 col-img">
+            <div class="col-md-2 col-6 col-img">
                 <div class="image-container">
                     <img 
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf7iucKIPamCjjQPIlfpeu1hyX9sV9BN0bBt0RCN99-w&s"
@@ -111,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-md-2 col-6">
                 <div class="image-container">
                     <img 
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhKlM07kWaY1kdiEFQ6aiXIFnB46gTA3jblkWDNoqjLw&s"
@@ -125,16 +130,16 @@
         </div>
 
         <div class="row" id="leones">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Leones</h1>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img 
                     src="https://www.pnguniverse.com/wp-content/uploads/2022/04/Leon-Lion-de-perfill-min-f6d91a91.png"
                     class="img-fluid"
                 />
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-12">
                 <p>
                     Los leones, majestuosos felinos conocidos como los "reyes de la selva", son símbolos 
                     de fuerza y nobleza en la naturaleza. Habitan en las sabanas y llanuras de <a href="https://es.wikipedia.org/wiki/África" style="text-decoration: underline;">África</a>, 
@@ -152,16 +157,16 @@
         </div>
 
         <div class="row" id="tigres">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Tigres</h1>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img 
                     src="https://img.freepik.com/foto-gratis/tigre-sobre-fondo-blanco_1268-27057.jpg"
                     class="img-fluid"
                 />
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-12">
                 <p>
                     Los tigres, criaturas majestuosas y poderosas, evocan una imagen de belleza y ferocidad en la jungla. 
                     Con su pelaje rayado y sus ojos penetrantes, estos grandes felinos son los depredadores supremos en 
@@ -181,16 +186,16 @@
         </div>
 
         <div class="row" id="gatos">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Gatos</h1>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img 
                     src="https://media.istockphoto.com/id/1385217969/es/foto/paseos-de-gato-de-jengibre.jpg?s=612x612&w=0&k=20&c=qFRI9JfiI9ftBP0aVIG0Ffs9apP7wowvS6tscnMbxh4="
                     class="img-fluid"
                 />
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-12">
                 <p>
                     Los gatos, fascinantes compañeros felinos de millones de hogares en todo el mundo, despiertan un 
                     sentido de admiración y afecto único entre sus dueños. Con su elegancia innata y su comportamiento 
@@ -207,16 +212,16 @@
         </div>
 
         <div class="row" id="pumas">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 class="text-center mt-5">Pumas</h1>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img 
                     src="https://png.pngtree.com/png-clipart/20231208/original/pngtree-puma-isolated-zoo-photo-png-image_13801882.png"
                     class="img-fluid"
                 />
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-12">
                 <p>
                     Los pumas, también conocidos como leones de montaña o cougar en inglés, son felinos impresionantes 
                     que habitan en una variedad de hábitats en <a href="https://es.wikipedia.org/wiki/América" style="text-decoration: underline;">América.</a> 
@@ -235,7 +240,7 @@
         </div>
 
         <div class="row" id="otros">
-            <div class="col-6">
+            <div class="col-md-6">
                 <h1 class="text-center mt-5">Otros</h1>
                 <ul>
                     <li><a href="https://www.nationalgeographic.com.es/felinos/viaje/leopardo_15558" style="text-decoration: underline;">Leopardo</a></li>
@@ -246,7 +251,7 @@
                     <li><a href="https://www.nationalgeographic.com.es/animales/lince" style="text-decoration: underline;">Lince</a></li>
                 </ul>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
                 <h1 class="text-center mt-5">Suscríbete para recibir más información</h1>
                 <form>
                     <label for="nombre">Nombre:ㅤㅤㅤㅤ ‎ ‎</label>
